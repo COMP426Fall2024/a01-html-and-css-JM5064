@@ -1,0 +1,45 @@
+body {
+    background: #f0f0d6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.entablature {
+    width: 100%;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    /* margin-top: 5px; */
+}
+
+p {
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 3px
+}
+
+.button-container {
+    width: 10%;
+    margin: auto;
+    padding: 20px;
+}
+
+.single-button {
+    width: 100%;
+}
+
+.main-image {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+table {
+    width: 40%;
+    margin: auto;
+}
+
