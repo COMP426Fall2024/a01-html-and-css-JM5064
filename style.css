@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #f0f0d6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
@@ -11,53 +11,79 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 36pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 p {
-    font-size: 18px;
+    font-size: 14pt;
     text-align: center;
     padding: 3px
 }
 
-.column-container {
+
+#body-container {
+    width: 100%;
     display: inline-flex;
-    justify-content: space-between;
+    justify-content:space-between;
+}
+
+#content-container-container {
+    display: inline-block;
 }
 
 #content-container {
-    /* padding: 6% 0; */
+    padding-top: 5px;
     margin: auto;
-    display: inline-block;
+    width: 95%;
+    display: inline-flex;
+    justify-content:space-between;
 }
 
 #text-container {
     vertical-align: top;
-    width: 60%;
-    margin-left: 50px;
+    width: 55%;
+    margin-left: 30px;
     padding: 10px;
     display: inline-block;
 }
 
 #image-container {
-    width: 50%;
-    display: inline;
-}
-
-.button-container {
-    width: 10%;
-    margin: auto;
+    width: 30%;
     padding: 20px;
 }
 
-.single-button {
-    width: 100%;
+.main-image {
+    display: block;
+    margin: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.main-button {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    display: block;
+    width: 80px;
+    height: 45px;
+    margin: auto;
+    background-color: #e0d7c1;
+    border-radius: 10px;
+}
+
+.main-button:hover {
+    background-color: #e1bb9f;
+    cursor: pointer;
 }
 
 
 table, td {
-    width: 50%;
+    width: 55%;
     margin: auto;
     border: 1.5px solid;
     background: #f7f7ee;
@@ -69,4 +95,12 @@ td + td {
 
 td {
     padding: 6px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background: #e3e3da;
+    outline: 1.5px solid;
+    outline-color: #222222;
 }
