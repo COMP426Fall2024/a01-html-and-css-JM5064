@@ -16,9 +16,14 @@ h1 {
 }
 
 p {
-    font-size: 15pt;
+    font-size: 16pt;
     text-align: center;
     padding: 3px
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -30,19 +35,18 @@ p {
 
 #content-container-container {
     display: inline-block;
+    margin: auto;
+    width: 70%;
 }
 
 #content-container {
-    padding-top: 5px;
-    margin: auto;
-    width: 95%;
     display: inline-flex;
     justify-content:space-between;
 }
 
 #text-container {
     vertical-align: top;
-    width: 55%;
+    width: 50%;
     margin-left: 30px;
     padding: 10px;
     display: inline-block;
@@ -59,10 +63,15 @@ p {
 }
 
 .button-container {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     margin-bottom: 18px;
+}
+
+.single-button-container {
+    justify-content: center;
 }
 
 .main-button {
@@ -70,10 +79,12 @@ p {
     font-size: 14pt;
     display: block;
     width: 80px;
-    height: 45px;
-    margin: auto;
     background-color: #e0d7c1;
+    border: 2px solid;
     border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .main-button:hover {
