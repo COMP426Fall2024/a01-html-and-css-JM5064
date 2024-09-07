@@ -26,13 +26,14 @@ body {
 }
 
 h1 {
+    margin-top: 0px;
     text-align: center;
-    font-size: 36pt;
+    font-size: 40pt;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 p {
-    font-size: 16pt;
+    font-size: 18pt;
     text-align: center;
     padding: 3px
 }
@@ -56,7 +57,7 @@ a {
 #content-container-container {
     display: inline-block;
     margin: auto;
-    width: 70%;
+    /* width: 70%; */
 }
 
 #content-container {
@@ -67,19 +68,14 @@ a {
 #text-container {
     vertical-align: top;
     width: 50%;
-    margin-left: 30px;
     padding: 10px;
     display: inline-block;
 }
 
 #image-container {
-    width: 30%;
     padding: 20px;
-}
-
-.main-image {
-    display: block;
     margin: auto;
+    position: relative;
 }
 
 .button-container {
@@ -117,6 +113,46 @@ a {
 .main-button:active {
     background-color: #d0ad94;
 }
+
+
+.places {
+    font-size: 16pt;
+    color: #351616;
+    list-style-type:lower-greek;
+    position: absolute;
+}
+
+.places:hover {
+    background: rgba(255, 247, 0, 0.4);
+}
+
+.carthage {
+    top: 200px;
+    left: 95px
+}
+
+.crete {
+    top: 225px;
+    left: 375px
+}
+
+.egypt {
+    top: 315px;
+    left: 470px
+}
+
+.sicily {
+    top: 180px;
+    left: 183px
+}
+
+.sparta {
+    top: 183px;
+    left: 315px;
+}
+
+
+
 
 
 table, td {
