@@ -38,6 +38,11 @@ p {
     padding: 3px
 }
 
+.disclaimer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+}
+
 a {
     text-decoration: none;
     color: black;
