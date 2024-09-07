@@ -5,8 +5,24 @@ body {
 }
 
 
-.entablature {
+.header {
     width: 100%;
+    background: #f9f7ee;
+    bottom: -30px;
+}
+
+.header:hover {
+    background: #e6e4d4;
+}
+
+.header:active {
+    background: #dad8ca;
+}
+
+.entablature-image {
+    width: 100%;
+    display: block;
+    cursor: pointer;
 }
 
 h1 {
@@ -24,6 +40,10 @@ p {
 a {
     text-decoration: none;
     color: black;
+}
+
+.column {
+    padding-top: 3px;
 }
 
 
@@ -85,11 +105,17 @@ a {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .main-button:hover {
     background-color: #e1bb9f;
     cursor: pointer;
+}
+
+.main-button:active {
+    background-color: #d0ad94;
 }
 
 
