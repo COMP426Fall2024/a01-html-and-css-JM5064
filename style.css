@@ -48,11 +48,6 @@ a {
     color: black;
 }
 
-.column {
-    padding-top: 3px;
-}
-
-
 #body-container {
     width: 100%;
     display: inline-flex;
@@ -158,8 +153,6 @@ a {
 
 
 
-
-
 table, td {
     width: 55%;
     margin: auto;
@@ -177,8 +170,9 @@ td {
 
 .footer {
     width: 100%;
-    height: 60px;
+    height: 69px;
     background: #e3e3da;
+    margin-top: -3px;
     outline: 1.5px solid;
     outline-color: #222222;
 }
